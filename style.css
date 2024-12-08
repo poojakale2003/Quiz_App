@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body{
+    background-color: lightgray;
+}
+#container{
+    width: 50%;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin: 5% auto;
+    text-align: center;
+    padding: 2rem;
+}
+.logo{
+    width: 5rem;
+}
+.welcome-note{
+    font-weight: 700;
+    font-style: normal;
+
+}
+.welcome-note, #name-input, .note, .category-heading{
+    margin: 0.5rem;
+}
+#name-input, .name-button, .note, #welcome-note, .category-heading, .category-button{
+    font-weight: 700;
+}
+.welcome-note, .category-heading{
+    color: rgb(8, 60, 145);
+
+}
+#name-input, .name-button{
+    border-radius: 0.5rem;
+
+}
+#name-input, .name-button, .category-button{
+    height:2rem ;
+    border: none;
+}
+.note, #welcome-note{
+    color: rgb(147, 147, 147);
+}
+.name-button, .category-button{
+    background-color:rgb(8, 60, 145) ;
+    color: #fff;
+}
+#name-input{
+    width: 60%;
+    background-color: lightgray;
+    padding: 1rem;
+}
+.name-button{
+    width: 20%;
+}
+.category-button{
+    width: 30%;
+    margin: 1rem 3rem;
+    border-color: rgb(8, 60, 145);
+    
+}
+h1{
+    color: #fff;
+}
+
+#question-container{
+    width: 75%;
+    height: 15vh;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid #ddd;
+    color: #fff ;
+}
+#option-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+.option-button{
+  padding: 5px 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+#question-count{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute;
+    left: 48%;
+    top: 26.5vh;
+    background-color:rgb(8, 60, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
+.quiz-header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+button{
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(8, 60, 145);
+
+}
+.result-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(8, 60, 145);
+    justify-content: center;
+  }
+  
+  .result-page ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+
+h2{
+    color: rgb(8, 60, 145);
+    padding: 0.5rem;
+}
+p{
+    color: rgb(8, 60, 145);
+}
+  
+  
+  
+
+
+
